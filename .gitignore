@@ -1,0 +1,37 @@
+# Unity package: Ignore common Unity meta and cache
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+.obj/
+*.csproj
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+
+# Package-specific ignores
+*.asmdef.meta
+*.cs.meta
+*.json.meta
+*.md.meta
+*.unitypackage
+*.unitypackage.meta
+
+# Visual Studio / Rider / JetBrains
+.vscode/
+.idea/
+.vs/
+*.sln
+*.code-workspace

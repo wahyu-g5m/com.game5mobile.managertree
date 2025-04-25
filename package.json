@@ -1,0 +1,13 @@
+{
+	"name": "com.game5mobile.managertree",
+	"version": "1.0.0",
+	"displayName": "Five - Manager Tree",
+	"description": "Base class for Manager Tree (mvc simplified) architecture",
+	"unity": "2021.3",
+	"unityRelease": "4f1",
+	"author": {
+		"name": "Game5mobile",
+		"email": "info@game5mobile.com",
+		"url": "https://www.game5mobile.com"
+	}
+}
