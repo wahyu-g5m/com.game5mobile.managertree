@@ -174,7 +174,7 @@ namespace Five.Architecture
                 return;
             }
 
-            var managerInstance = await LoadAsync<T>(manager, cancellationToken);
+            var managerInstance = await LaunchAsync<T>(manager, cancellationToken);
 
             while (!cancellationToken.IsCancellationRequested && !managerInstance.isDone && !managerInstance.LifeTimeToken.IsCancellationRequested)
             {
@@ -201,7 +201,7 @@ namespace Five.Architecture
                 return result;
             }
 
-            var managerInstance = await LoadAsync<T>(manager, cancellationToken);
+            var managerInstance = await LaunchAsync<T>(manager, cancellationToken);
 
             while (!cancellationToken.IsCancellationRequested && !managerInstance.isDone && !managerInstance.LifeTimeToken.IsCancellationRequested)
             {
