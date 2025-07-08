@@ -14,6 +14,7 @@ namespace Five.Architecture
         private bool isDisposing;
 
         protected CancellationToken LifeTimeToken => cts.Token;
+        protected bool IsDone => isDone;
 
         protected abstract Task OnInitializeAsync();
         protected abstract Task OnRunAsync();
